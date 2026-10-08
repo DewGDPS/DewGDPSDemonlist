@@ -220,8 +220,9 @@ export default {
     },
 
     async mounted() {
-        await this.loadVersion(this.selectedVersion);
-    },
+    store.timeMachineVersion = this.selectedVersion;
+    await this.loadVersion(this.selectedVersion);
+},
 
     methods: {
 
@@ -245,6 +246,7 @@ export default {
         async changeVersion(version) {
 
             this.selectedVersion = version;
+            store.timeMachineVersion = version;
 
             await this.loadVersion(version);
 
