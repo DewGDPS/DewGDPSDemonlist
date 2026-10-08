@@ -1,5 +1,6 @@
 import { fetchLeaderboard } from '../content.js';
 import { localize } from '../util.js';
+import { store } from '../main.js';
 
 import Spinner from '../components/Spinner.js';
 
@@ -98,12 +99,21 @@ export default {
         },
     },
     async mounted() {
-        const [leaderboard, err] = await fetchLeaderboard();
-        this.leaderboard = leaderboard;
-        this.err = err;
-        // Hide loading spinner
-        this.loading = false;
-    },
+
+    let dir = '/DewGDPSDemonlist/data';
+
+    if (store.timeMachineVersion) {
+        dir = `/DewGDPSDemonlist/TimeMachine/${store.timeMachineVersion}/data`;
+    }
+
+    const [leaderboard, err] = await fetchLeaderboard(dir);
+
+    this.leaderboard = leaderboard;
+    this.err = err;
+
+    // Hide loading spinner
+    this.loading = false;
+},
     methods: {
         localize,
     },
