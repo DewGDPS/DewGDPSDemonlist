@@ -6,14 +6,14 @@
     "verifier": "nilZeroGMD",
     "verification": "https://youtu.be/uHHtLVvjqBQ",
     "percentToQualify": 50,
-    "enjoyment": "?/10",
+    "enjoyment": "2/10",
     "password": "Copyable",
     "records": [
         {
-            "user": "None",
-            "link": "https://www.youtube.com",
-            "percent": 0,
-            "hz": 0
+            "user": "Davidshaft",
+            "link": "https://www.youtube.com/watch?v=AwGn1ydd5EU",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
