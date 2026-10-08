@@ -16,21 +16,6 @@ export default {
 
         <main v-else class="page-list">
 
-            <!-- TIME MACHINE VERSION SELECTOR -->
-            <div class="timemachine-header">
-                <h1>Time Machine</h1>
-
-                <div class="timemachine-buttons">
-                    <button
-                        v-for="version in versions"
-                        @click="changeVersion(version)"
-                        :class="{ active: selectedVersion === version }"
-                    >
-                        {{ version }}
-                    </button>
-                </div>
-            </div>
-
             <!-- LEVEL LIST -->
             <div class="list-container">
                 <table class="list" v-if="list">
@@ -179,6 +164,24 @@ export default {
                 </div>
 
             </div>
+
+<div class="meta-container">
+    <div class="meta">
+        <div class="timemachine-header">
+            <h1>Time Machine</h1>
+
+            <div class="timemachine-buttons">
+                <button
+                    v-for="version in versions"
+                    @click="changeVersion(version)"
+                    :class="{ active: selectedVersion === version }"
+                >
+                    {{ version }}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
         </main>
     `,
