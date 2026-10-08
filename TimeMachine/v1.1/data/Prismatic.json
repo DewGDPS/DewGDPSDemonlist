@@ -1,0 +1,19 @@
+{
+    "id": 115,
+    "name": "Prismatic",
+    "author": "Davidshaft",
+    "creators": ["Davidshaft"],
+    "verifier": "Davidshaft",
+    "verification": "https://www.youtube.com/watch?v=7Hp1oAxngoM",
+    "percentToQualify": 50,
+    "enjoyment": "?/10",
+    "password": "Copyable",
+    "records": [
+        {
+            "user": "None",
+            "link": "https://www.youtube.com",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
