@@ -1,0 +1,19 @@
+{
+    "id": 117,
+    "name": "Aerodynamix",
+    "author": "Lastyk",
+    "creators": ["Lastyk"],
+    "verifier": "Lastyk",
+    "verification": "https://youtu.be/6nyrIo1Mzog",
+    "percentToQualify": 50,
+    "enjoyment": "?/10",
+    "password": "Copyable",
+    "records": [
+        {
+            "user": "None",
+            "link": "https://www.youtube.com",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
