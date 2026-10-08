@@ -1,0 +1,19 @@
+{
+    "id": 126,
+    "name": "Black Box",
+    "author": "Davidshaft",
+    "creators": ["Davidshaft"],
+    "verifier": "Davidshaft",
+    "verification": "https://youtu.be/C0pWKXJCUuk",
+    "percentToQualify": 50,
+    "enjoyment": "?/10",
+    "password": "Copyable",
+    "records": [
+        {
+            "user": "None",
+            "link": "https://www.youtube.com",
+            "percent": 0,
+            "hz": 0
+        }
+    ]
+}
