@@ -100,7 +100,7 @@ export default {
 
                     </ul>
 
-                    <h2>Records</h2>
+                    <h2>Records ({{ level.records.length }})</h2>
 
                     <p v-if="selected + 1 <= 75">
                         <strong>{{ level.percentToQualify }}%</strong>
