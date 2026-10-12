@@ -6,7 +6,7 @@
     "verifier": "nilZeroGMD",
     "verification": "https://youtu.be/uHHtLVvjqBQ",
     "percentToQualify": 50,
-    "enjoyment": "2.625/10",
+    "enjoyment": "3/10",
     "password": "Copyable",
     "records": [
         {
@@ -32,6 +32,12 @@
             "link": "https://youtu.be/gREv0El0HBc?si=t8YocpufOCD3BMVE",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nHNyHD9JIg8hKfKsA?invite=cr-MSw4eHksNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180
         }
     ]
 }
