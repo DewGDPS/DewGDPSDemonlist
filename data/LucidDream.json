@@ -6,7 +6,7 @@
     "verifier": "nilZeroGMD",
     "verification": "https://www.youtube.com/watch?v=VUNX1iVZXjM",
     "percentToQualify": 50,
-    "enjoyment": "6/10",
+    "enjoyment": "7/10",
     "password": "Copyable",
     "records": [
         {
@@ -22,10 +22,16 @@
             "hz": 180
         },
         {
-            "user": "Strdeh ",
+            "user": "Strdeh",
             "link": "https://youtu.be/Q7r-4TEXQ9g?si=oIqz87P1jJYLtNYd",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "RealZeni",
+            "link": "https://youtu.be/ZXqkqC8ILe8?is=ssxTjdN65pT1vVCC",
+            "percent": 51,
+            "hz": 80
         }
     ]
 }
