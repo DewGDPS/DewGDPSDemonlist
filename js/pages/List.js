@@ -114,22 +114,25 @@ export default {
                         1. No Hacks Allowed (Except for FPS Bypass, but only up to 360 FPS)
                     </p>
                     <p>
-                        2. Must be a Rated Level on the GDPS
+                        2. TPS Bypass is Strictly Prohibited
                     </p>
                     <p>
-                        3. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
+                        3. Must be a Rated Level on the GDPS
                     </p>
                     <p>
-                        4. The recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
+                        4. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
                     </p>
                     <p>
-                        5. The Recording Must show the player hit the End Wall or End Trigger
+                        5. The recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
                     </p>
                     <p>
-                        6. No Secret Ways (Swag Routes are allowed to a degree)
+                        6. The Recording Must show the player hit the End Wall or End Trigger
                     </p>
                     <p>
-                        7. Must be the Original Version of the Level, no modifications. (Personal copies are ONLY allowed for startpos)
+                        7. No Secret Ways (Swag Routes are allowed to a degree)
+                    </p>
+                    <p>
+                        8. Must be the Original Version of the Level, no modifications. (Only Certain Startpos Level are allowed)
                     </p>
                 </div>
             </div>
