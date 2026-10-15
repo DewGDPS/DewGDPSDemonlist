@@ -107,3 +107,60 @@ header.dark .nav {
     background-color: #008f6b;
     color: white;
 }
+
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup {
+    position: relative;
+    background: var(--color-background);
+    color: var(--color-on-background);
+    padding: 24px;
+    border: 1px solid var(--color-background-hover);
+    border-radius: 12px;
+    width: min(420px, 90%);
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+.popup-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 26px;
+    cursor: pointer;
+    color: inherit;
+    background: transparent;
+    border: none;
+}
+
+.popup h2 {
+    margin-bottom: 16px;
+}
+
+.popup p {
+    margin: 8px 0;
+}
+
+/* Clickable level ID */
+.stats a {
+    color: var(--color-primary);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.stats a:hover {
+    opacity: 0.75;
+}
+
+.popup-close:hover {
+    opacity: 0.7;
+}
