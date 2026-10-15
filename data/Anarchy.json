@@ -8,11 +8,21 @@
     "percentToQualify": 50,
     "enjoyment": "3/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 158,
+            "text": "Allowed (Default)"
+        },
+        {
+            "id": 161,
+            "text": "Allowed (2.1 Physics)"
+        }
+    ],
     "records": [
         {
             "user": "cheez11111",
-            "link": "https://medal.tv/games/geometry-dash/clips/nJ83Bmixpw3AlXp7j?invite=cr-MSxkN1UsNjA3ODY5MzQy",
-            "percent": 74,
+            "link": "https://medal.tv/games/geometry-dash/clips/nJbND18JciRjwvv11?invite=cr-MSw3SVEsODMzNzg5MTEy",
+            "percent": 100,
             "hz": 180
         }
     ]
