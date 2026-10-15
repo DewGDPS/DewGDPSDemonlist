@@ -150,15 +150,22 @@ header.dark .nav {
     margin: 8px 0;
 }
 
-/* Clickable level ID */
+/* Clickable level ID — light mode */
 .stats a {
-    color: var(--color-primary);
+    color: black;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
+/* Underline on hover */
 .stats a:hover {
-    opacity: 0.75;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+/* Clickable level ID — dark mode */
+main.dark .stats a {
+    color: white;
 }
 
 .popup-close:hover {
