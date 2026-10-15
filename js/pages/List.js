@@ -156,7 +156,10 @@ export default {
                         7. No Secret Ways (Swag Routes are allowed to a degree)
                     </p>
                     <p>
-                        8. Must be the Original Version of the Level, no modifications. (Only Certain Startpos Level are allowed)
+                        8. Must be the Original Version of the Level, no modifications. (Only Certain Startpos Levels are allowed)
+                    </p>
+                    <p>
+                        9. Click Between Frames is Prohibited for Verifications, CBF is only allowed for Progressions and Completions.
                     </p>
                 </div>
             </div>
