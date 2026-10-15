@@ -150,9 +150,9 @@ header.dark .nav {
     margin: 8px 0;
 }
 
-/* Clickable level ID — light mode */
+/* Clickable level ID */
 .stats a {
-    color: black;
+    color: var(--color-on-background);
     cursor: pointer;
     text-decoration: none;
 }
