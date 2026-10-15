@@ -8,5 +8,12 @@
     "percentToQualify": 50,
     "enjoyment": "?/10",
     "password": "Copyable",
-    "records": []
+    "records": [
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nJ83Bmixpw3AlXp7j?invite=cr-MSxkN1UsNjA3ODY5MzQy",
+            "percent": 74,
+            "hz": 180
+        }
+    ]
 }
