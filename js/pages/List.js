@@ -40,7 +40,9 @@ export default {
     </li>
     <li>
         <div class="type-title-sm">ID</div>
-        <p>{{ level.id }}</p>
+        <p><a href="#" @click.prevent="showAllowedCopies = true">
+    {{ level.id }}
+</a></p>
     </li>
     <li>
         <div class="type-title-sm">Enjoyment Rating</div>
@@ -75,6 +77,28 @@ export default {
                             </td>
                         </tr>
                     </table>
+                     <div v-if="showAllowedCopies" class="popup-overlay"
+                         @click.self="showAllowedCopies = false">
+                        <div class="popup">
+                            <button class="popup-close"
+                                    @click="showAllowedCopies = false">
+                                &times;
+                            </button>
+
+                            <h2>Allowed Copies</h2>
+
+                            <div v-if="level.popupIDs && level.popupIDs.length">
+                                <div v-for="entry in level.popupIDs" :key="entry.id">
+                                    <p>
+                                        <strong>ID: {{ entry.id }}</strong>
+                                        — {{ entry.text }}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <p v-else>No extra information available.</p>
+                        </div>
+                    </div>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -139,13 +163,14 @@ export default {
         </main>
     `,
     data: () => ({
-        list: [],
-        editors: [],
-        loading: true,
-        selected: 0,
-        errors: [],
-        store
-    }),
+    list: [],
+    editors: [],
+    loading: true,
+    selected: 0,
+    errors: [],
+    showAllowedCopies: false,
+    store
+}),
     computed: {
         level() {
     return this.list[this.selected]?.[0] ?? null;
