@@ -4,10 +4,17 @@
     "author": "riotsreborn",
     "creators": ["riotsreborn"],
     "verifier": "riotsreborn",
+    "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=qdM8u1t0MO4",
     "percentToQualify": 50,
     "enjoyment": "4/10",
     "password": "Copyable",
+     "popupIDs": [
+        {
+            "id": 118,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "Davidshaft",
