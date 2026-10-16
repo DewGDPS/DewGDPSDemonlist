@@ -8,6 +8,12 @@
     "percentToQualify": 50,
     "enjoyment": "4.5/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 151,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "Phobixl",
