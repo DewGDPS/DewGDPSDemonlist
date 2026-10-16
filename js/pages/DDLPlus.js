@@ -9,4 +9,11 @@ export default {
             dataDir: '/DewGDPSDemonlist/DDLPlus',
         };
     },
+
+    methods: {
+        ...List.methods,
+        score() {
+            return 0;
+        },
+    },
 };
