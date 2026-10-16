@@ -5,7 +5,6 @@ export default {
 
     data() {
         return {
-            ...List.data(),
             dataDir: '/DewGDPSDemonlist/DDLPlus',
         };
     },
