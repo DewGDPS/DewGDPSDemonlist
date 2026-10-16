@@ -20,7 +20,8 @@
             "user": "Davidshaft",
             "link": "https://www.youtube.com/watch?v=kHigef-qe10",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "clickMethod": "COS"
         }
     ]
 }
