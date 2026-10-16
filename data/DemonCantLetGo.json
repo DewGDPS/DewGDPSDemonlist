@@ -20,13 +20,15 @@
             "user": "Davidshaft",
             "link": "https://www.youtube.com/watch?v=QgWQuxf9b-0",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "clickMethod": "COS"
         },
         {
             "user": "cheez11111",
             "link": "https://medal.tv/games/geometry-dash/clips/nJ5mG5qotTnyQq5g-?invite=cr-MSxNUTUsNjA3ODY5MzQy",
             "percent": 100,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
