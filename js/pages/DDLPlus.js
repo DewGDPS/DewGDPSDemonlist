@@ -1,10 +1,11 @@
 import List from './List.js';
 
 export default {
-    extends: List,
+    ...List,
 
     data() {
         return {
+            ...List.data(),
             dataDir: '/DewGDPSDemonlist/DDLPlus',
         };
     },
