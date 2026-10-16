@@ -164,6 +164,9 @@ export default {
                     <p>
                         10. New Top 1 Levels can't be too big of a Jump from the Current Top 1 Level
                     </p>
+                    <p>
+                        11. The Video/Recording Must show the Level Page and Megahgack/Eclipse/Prism/etc. Menu after Completion
+                    </p>
                 </div>
             </div>
         </main>
