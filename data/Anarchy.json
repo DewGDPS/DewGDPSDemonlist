@@ -25,12 +25,14 @@
             "link": "https://medal.tv/games/geometry-dash/clips/nJbND18JciRjwvv11?invite=cr-MSw3SVEsODMzNzg5MTEy",
             "percent": 100,
             "hz": 180
+            "clickMethod": "COS"
         },
         {
             "user": "Phobixl",
             "link": "https://www.youtube.com/watch?v=x4VV-pxWqZk",
             "percent": 100,
             "hz": 200
+            "clickMethod": "CBF"
         }
     ]
 }
