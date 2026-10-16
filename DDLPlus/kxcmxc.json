@@ -1,0 +1,19 @@
+{
+    "id": 170,
+    "name": "kxcmxc",
+    "author": "Phobixl",
+    "creators": ["Phobixl"],
+    "verifier": "Phobixl",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://www.youtube.com/watch?v=tLZ3FA59sz4",
+    "percentToQualify": 50,
+    "enjoyment": "?/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 170,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": []
+}
