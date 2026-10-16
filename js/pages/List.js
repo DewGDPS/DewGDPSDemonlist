@@ -187,6 +187,7 @@ export default {
     selected: 0,
     errors: [],
     showAllowedCopies: false,
+    dataDir: '/DewGDPSDemonlist/data',
     store
 }),
     computed: {
@@ -211,7 +212,7 @@ export default {
     },
     async mounted() {
         // Hide loading spinner
-        this.list = (await fetchList()) ?? [];
+        this.list = (await fetchList(this.dataDir)) ?? [];
         this.editors = await fetchEditors();
 
         // Error handling
