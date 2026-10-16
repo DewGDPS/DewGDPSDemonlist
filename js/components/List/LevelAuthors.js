@@ -12,6 +12,10 @@ export default {
             type: String,
             required: true,
         },
+        clickMethod: {
+            type: String,
+            default: 'Not Specified',
+        },
     },
     template: `
         <div class="level-authors">
@@ -44,9 +48,14 @@ export default {
                     <span>{{ verifier }}</span>
                 </p>
             </template>
-            <div class="type-title-sm">Publisher</div>
+                        <div class="type-title-sm">Publisher</div>
             <p class="type-body">
                 <span>{{ author }}</span>
+            </p>
+
+            <div class="type-title-sm">Click Method</div>
+            <p class="type-body">
+                <span>{{ clickMethod }}</span>
             </p>
         </div>
     `,
