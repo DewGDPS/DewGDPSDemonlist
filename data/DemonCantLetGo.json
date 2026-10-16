@@ -4,10 +4,17 @@
     "author": "Strdeh",
     "creators": ["Strdeh"],
     "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
     "verification": "https://youtu.be/B9TS8PHbxpc?si=fFXba5CKBNs6INFU",
     "percentToQualify": 50,
     "enjoyment": "4/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 152,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "Davidshaft",
