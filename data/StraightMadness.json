@@ -20,7 +20,8 @@
             "user": "cheez11111",
             "link": "https://medal.tv/games/geometry-dash/clips/nHXq8JJhVWSqgjyHy?invite=cr-MSxhTkksNjA3ODY5MzQy",
             "percent": 100,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
