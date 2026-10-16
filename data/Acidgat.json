@@ -4,10 +4,17 @@
     "author": "Davidshaft",
     "creators": ["Davidshaft"],
     "verifier": "Davidshaft",
+    "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=oz5M8W3-SDg",
     "percentToQualify": 50,
     "enjoyment": "8/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 121,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "Strdeh",
