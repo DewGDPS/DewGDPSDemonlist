@@ -1,9 +1,10 @@
 {
     "id": 151,
-    "name": "HELIOpossibly",
+    "name": "HELIOprobably",
     "author": "cheez11111",
     "creators": ["cheez11111"],
     "verifier": "cheez11111",
+    "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=FZc-pd5lXxs",
     "percentToQualify": 50,
     "enjoyment": "4.5/10",
