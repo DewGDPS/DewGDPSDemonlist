@@ -20,13 +20,15 @@
             "user": "Strdeh",
             "link": "https://youtu.be/tIrb6IA3was?si=0uJhg6htoUfhvDjF",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "clickMethod": "CBF"
         },
         {
             "user": "cheez11111",
             "link": "https://medal.tv/games/geometry-dash/clips/nHNVUceWVPIEcVCv6?invite=cr-MSx3ZDYsNjA3ODY5MzQy",
             "percent": 100,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
