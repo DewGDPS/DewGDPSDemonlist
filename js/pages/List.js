@@ -78,8 +78,13 @@ export default {
 >
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}Hz</p>
-                            </td>
+    <p>
+        <span v-if="record.clickMethod">
+            {{ record.clickMethod }}&nbsp; | &nbsp;
+        </span>
+        {{ record.hz }}Hz
+    </p>
+</td>
                         </tr>
                     </table>
                      <div v-if="showAllowedCopies" class="popup-overlay"
