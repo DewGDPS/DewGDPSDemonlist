@@ -6,8 +6,14 @@
     "verifier": "Davidshaft",
     "verification": "https://youtu.be/C0pWKXJCUuk",
     "percentToQualify": 50,
-    "enjoyment": "?/10",
+    "enjoyment": "7/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 126,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "cheez11111",
