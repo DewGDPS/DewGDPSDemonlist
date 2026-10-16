@@ -2,10 +2,12 @@ import List from './pages/List.js';
 import Leaderboard from './pages/Leaderboard.js';
 import Roulette from './pages/Roulette.js';
 import TimeMachine from './pages/TimeMachine.js';
+import DDLPlus from './pages/DDLPlus.js';
 
 export default [
     { path: '/', component: List },
     { path: '/leaderboard', component: Leaderboard },
     { path: '/roulette', component: Roulette },
     { path: '/timemachine', component: TimeMachine },
+    { path: '/ddl-plus', component: DDLPlus },
 ];
