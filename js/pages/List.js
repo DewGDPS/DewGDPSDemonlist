@@ -147,7 +147,7 @@ export default {
                         4. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
                     </p>
                     <p>
-                        5. The recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
+                        5. The Recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
                     </p>
                     <p>
                         6. The Recording Must show the player hit the End Wall or End Trigger
@@ -165,7 +165,7 @@ export default {
                         10. New Top 1 Levels can't be too big of a Jump from the Current Top 1 Level
                     </p>
                     <p>
-                        11. The Video/Recording Must show the Level Page and Megahgack/Eclipse/Prism/etc. Menu after Completion
+                        11. The Recording Must show the Level Page and Megahack/Eclipse/Prism/etc. Menu after Completion
                     </p>
                 </div>
             </div>
