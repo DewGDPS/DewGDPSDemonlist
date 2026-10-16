@@ -138,7 +138,7 @@ export default {
                         1. No Hacks Allowed (Except for FPS Bypass, but only up to 360 FPS)
                     </p>
                     <p>
-                        2. TPS Bypass is Strictly Prohibited
+                        2. Click Between Frames and TPS Bypass is Strictly Prohibited
                     </p>
                     <p>
                         3. Must be a Rated Level on the GDPS
@@ -156,10 +156,13 @@ export default {
                         7. No Secret Ways (Swag Routes are allowed to a degree)
                     </p>
                     <p>
-                        8. Must be the Original Version of the Level, no modifications. (Only Certain Startpos Levels are allowed)
+                        8. Must be the Original Version of the Level, no modifications (Only Certain Startpos Levels are allowed)
                     </p>
                     <p>
-                        9. Click Between Frames is Prohibited for Verifications, CBF is only allowed for Progressions and Completions.
+                        9. Demonlist Levels cannot be a Reupload from the normal GD Servers
+                    </p>
+                    <p>
+                        10. New Top 1 Levels can't be too big of a Jump from the Current Top 1 Level
                     </p>
                 </div>
             </div>
