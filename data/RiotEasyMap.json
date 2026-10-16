@@ -20,19 +20,22 @@
             "user": "Davidshaft",
             "link": "https://www.youtube.com/watch?v=4rAoW11gLHA",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "clickMethod": "COS"
         },
         {
             "user": "cheez11111",
             "link": "https://medal.tv/games/geometry-dash/clips/nHOxm71ayFrF-wdHG?invite=cr-MSxpZWgsNjA3ODY5MzQy",
             "percent": 98,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "COS"
         },
         {
             "user": "Strdeh",
             "link": "https://www.youtube.com/watch?v=cy6xhrWAlQk",
             "percent": 84,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "CBF"
         }
     ]
 }
