@@ -78,11 +78,10 @@ export default {
 >
                             </td>
                             <td class="hz">
-    <p>
+    <p style="white-space: nowrap;">
         <span v-if="record.clickMethod">
-            {{ record.clickMethod }}&nbsp; | &nbsp;
-        </span>
-        {{ record.hz }}Hz
+            {{ record.clickMethod }} | 
+        </span>{{ record.hz }}Hz
     </p>
 </td>
                         </tr>
