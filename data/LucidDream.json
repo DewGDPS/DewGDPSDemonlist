@@ -4,10 +4,17 @@
     "author": "nilZeroGMD",
     "creators": ["nilZeroGMD"],
     "verifier": "nilZeroGMD",
+    "clickMethod": "Click Between Steps",
     "verification": "https://www.youtube.com/watch?v=VUNX1iVZXjM",
     "percentToQualify": 50,
     "enjoyment": "7/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 148,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "Davidshaft",
