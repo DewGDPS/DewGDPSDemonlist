@@ -13,25 +13,29 @@
             "user": "Davidshaft",
             "link": "https://youtu.be/IsvkG0oc4Is",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "clickMethod": "COS"
         },
         {
             "user": "cheez11111",
             "link": "https://medal.tv/games/geometry-dash/clips/nIiUA75eH6g9-MWuq?invite=cr-MSxEQmwsODMzNzg5MTEy",
             "percent": 100,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "COS"
         },
         {
             "user": "Strdeh",
             "link": "https://youtu.be/Q7r-4TEXQ9g?si=oIqz87P1jJYLtNYd",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "clickMethod": "CBF"
         },
         {
             "user": "RealZeni",
             "link": "https://www.youtube.com/watch?v=wduugXbmZTo",
             "percent": 100,
-            "hz": 80
+            "hz": 80,
+            "clickMethod": "COS"
         }
     ]
 }
