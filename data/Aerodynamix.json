@@ -4,10 +4,17 @@
     "author": "Lastyk",
     "creators": ["Lastyk"],
     "verifier": "Lastyk",
+    "clickMethod": "Click On Steps",
     "verification": "https://youtu.be/6nyrIo1Mzog",
     "percentToQualify": 50,
     "enjoyment": "4/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 117,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "Davidshaft",
