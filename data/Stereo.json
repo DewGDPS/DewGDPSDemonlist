@@ -4,10 +4,21 @@
     "author": "Geometrical",
     "creators": ["Geometrical"],
     "verifier": "Davidshaft",
+    "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=ciSyl2ThcQM",
     "percentToQualify": 50,
     "enjoyment": "9/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 127,
+            "text": "Allowed (Default)"
+        },
+        {
+            "id": 128,
+            "text": "Allowed (Startpos)"
+        }
+    ],
     "records": [
         {
             "user": "Strdeh",
