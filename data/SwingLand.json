@@ -20,37 +20,43 @@
             "user": "Davidshaft",
             "link": "https://www.youtube.com/watch?v=AwGn1ydd5EU",
             "percent": 100,
-            "hz": 240
+            "hz": 240,
+            "clickMethod": "COS"
         },
         {
             "user": "riotsreborn",
             "link": "https://www.youtube.com/watch?v=vSs01H2bswg",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "clickMethod": "COS"
         },
         {
             "user": "Dew",
             "link": "https://www.youtube.com/watch?v=S997T8lVQT8&t=670s",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "clickMethod": "COS"
         },
         {
             "user": "Strdeh",
             "link": "https://youtu.be/gREv0El0HBc?si=t8YocpufOCD3BMVE",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "clickMethod": "CBF"
         },
         {
             "user": "cheez11111",
             "link": "https://medal.tv/games/imported-clips/clips/nHXXWHNEwcRgapgMS?invite=cr-MSxXZTcsNjA3ODY5MzQy",
             "percent": 100,
-            "hz": 180
+            "hz": 180,
+            "clickMethod": "COS"
         },
         {
             "user": "Larpidshaft",
             "link": "https://www.youtube.com/shorts/hrmqzbJPEps",
             "percent": 100,
-            "hz": 60
+            "hz": 60,
+            "clickMethod": "COS"
         }
     ]
 }
