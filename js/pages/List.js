@@ -31,7 +31,12 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <LevelAuthors
+                        :author="level.author"
+                        :creators="level.creators"
+                        :verifier="level.verifier"
+                        :click-method="level.clickMethod"
+                    ></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
     <li>
@@ -138,7 +143,7 @@ export default {
                         1. No Hacks Allowed (Except for FPS Bypass, but only up to 360 FPS)
                     </p>
                     <p>
-                        2. Click Between Frames and TPS Bypass is Strictly Prohibited
+                        2. TPS Bypass is Strictly Prohibited
                     </p>
                     <p>
                         3. Must be a Rated Level on the GDPS
