@@ -4,10 +4,17 @@
     "author": "Larpidshaft",
     "creators": ["Larpidshaft"],
     "verifier": "Davidshaft",
+    "clickMethod": "Click On Steps",
     "verification": "https://youtu.be/IMRQS8lqIbk",
     "percentToQualify": 50,
     "enjoyment": "5.5/10",
     "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 144,
+            "text": "Allowed (Default)"
+        }
+    ],
     "records": [
         {
             "user": "cheez11111",
