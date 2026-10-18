@@ -33,6 +33,13 @@
             "percent": 100,
             "hz": 200,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "yonk",
+            "link": "https://medal.tv/games/geometry-dash/clips/nKjMZ7pNYxrDnF6gH?invite=cr-MSx2eFIsMzAyOTk1NTAy",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "COS"
         }
     ]
 }
