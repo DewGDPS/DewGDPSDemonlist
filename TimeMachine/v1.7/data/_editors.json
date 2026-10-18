@@ -1,0 +1,37 @@
+[
+    {
+        "image": "crown.svg",
+        "name": "Davidshaft (DDL Owner)",
+        "link": "https://www.youtube.com/channel/UCr2sml5eSCwnTLRXZaEDXvA"
+    },
+    {
+        "image": "crown.svg",
+        "name": "Dew (GDPS Owner)",
+        "link": "https://www.youtube.com/channel/UChRp5NA8dbHNnUIWPoCj7Og"
+    },
+    {
+        "image": "user-gear.svg",
+        "name": "ILoveGhazt (Demonlist Moderator)",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+     { 
+        "image": "user-gear.svg",
+        "name": "SaucyDasher32 (Demonlist Moderator)",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+     },
+    { 
+        "image": "user-gear.svg",
+        "name": "cheez11111 (Demonlist Moderator)",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+     },
+    {
+        "image": "code.svg",
+        "name": "Davidshaft (Developer)",
+        "link": "https://www.youtube.com/channel/UCr2sml5eSCwnTLRXZaEDXvA"
+    },
+    {
+        "image": "code.svg",
+        "name": "Prometheus (Creator Of Layout)",
+        "link": "https://www.youtube.com/@Prometheus_Alt"
+    }
+]

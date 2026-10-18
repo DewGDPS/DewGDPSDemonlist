@@ -1,0 +1,34 @@
+{
+    "id": 151,
+    "name": "HELIOprobably",
+    "author": "cheez11111",
+    "creators": ["cheez11111"],
+    "verifier": "cheez11111",
+    "clickMethod": "Click On Steps",
+    "verification": "https://www.youtube.com/watch?v=FZc-pd5lXxs",
+    "percentToQualify": 50,
+    "enjoyment": "4.5/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 151,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Phobixl",
+            "link": "https://www.youtube.com/watch?v=8tXxe2xdzoE",
+            "percent": 100,
+            "hz": 200,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "Davidshaft",
+            "link": "https://youtu.be/NTipFlLFrng",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
+        }
+    ]
+}

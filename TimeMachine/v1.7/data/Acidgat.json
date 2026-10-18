@@ -1,0 +1,34 @@
+{
+    "id": 121,
+    "name": "Acidgat",
+    "author": "Davidshaft",
+    "creators": ["Davidshaft"],
+    "verifier": "Davidshaft",
+    "clickMethod": "Click On Steps",
+    "verification": "https://www.youtube.com/watch?v=oz5M8W3-SDg",
+    "percentToQualify": 50,
+    "enjoyment": "8/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 121,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Strdeh",
+            "link": "https://youtu.be/tIrb6IA3was?si=0uJhg6htoUfhvDjF",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nHNVUceWVPIEcVCv6?invite=cr-MSx3ZDYsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}

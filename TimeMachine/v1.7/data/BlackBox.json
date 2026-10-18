@@ -1,0 +1,27 @@
+{
+    "id": 126,
+    "name": "Black Box",
+    "author": "Davidshaft",
+    "creators": ["Davidshaft"],
+    "verifier": "Davidshaft",
+    "clickMethod": "Click On Steps",
+    "verification": "https://youtu.be/C0pWKXJCUuk",
+    "percentToQualify": 50,
+    "enjoyment": "7/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 126,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nHTQ9hCca3XMTPYbM?invite=cr-MSxoUHgsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}

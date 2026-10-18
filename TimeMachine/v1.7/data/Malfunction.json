@@ -1,0 +1,27 @@
+{
+    "id": 144,
+    "name": "Malfunction",
+    "author": "Larpidshaft",
+    "creators": ["Larpidshaft"],
+    "verifier": "Davidshaft",
+    "clickMethod": "Click On Steps",
+    "verification": "https://youtu.be/IMRQS8lqIbk",
+    "percentToQualify": 50,
+    "enjoyment": "5.5/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 144,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nIiOBY9Ux_kiBzJAr?invite=cr-MSw5T2ksODMzNzg5MTEy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}
