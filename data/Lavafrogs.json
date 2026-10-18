@@ -22,6 +22,13 @@
             "percent": 100,
             "hz": 240,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "weavilegmd",
+            "link": "https://www.youtube.com/watch?v=ZDmSeqbB_Ek&feature=youtu.be",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
