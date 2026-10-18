@@ -1,0 +1,27 @@
+{
+    "id": 181,
+    "name": "Lavafrogs",
+    "author": "Marcigdpsaccount",
+    "creators": ["Marcigdpsaccount"],
+    "verifier": "Marcigdpsaccount",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://youtu.be/hru0mrAXqAo?is=1s6i4joQHbqu-WZ0",
+    "percentToQualify": 50,
+    "enjoyment": "6/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 181,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://youtu.be/gWXDQkwSUC4",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
+        }
+    ]
+}
