@@ -7,7 +7,7 @@
     "clickMethod": "Click Between Frames",
     "verification": "https://youtu.be/hru0mrAXqAo?is=1s6i4joQHbqu-WZ0",
     "percentToQualify": 50,
-    "enjoyment": "5/10",
+    "enjoyment": "7/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -26,6 +26,13 @@
         {
             "user": "weavilegmd",
             "link": "https://www.youtube.com/watch?v=ZDmSeqbB_Ek&feature=youtu.be",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nKH3s9bPyRIavKDgu?invite=cr-MSxrZ1YsNjA3ODY5MzQy",
             "percent": 100,
             "hz": 180,
             "clickMethod": "COS"
