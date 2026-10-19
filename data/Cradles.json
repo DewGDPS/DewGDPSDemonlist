@@ -1,0 +1,27 @@
+{
+    "id": 186,
+    "name": "Cradles",
+    "author": "Marcigdpsaccount",
+    "creators": ["Marcigdpsaccount"],
+    "verifier": "Phobixl",
+    "clickMethod": "Click On Steps",
+    "verification": "https://www.youtube.com/watch?v=oz5M8W3-SDg",
+    "percentToQualify": 50,
+    "enjoyment": "7/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 186,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://youtu.be/TzJWbcc0_24",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
+        }
+    ]
+}
