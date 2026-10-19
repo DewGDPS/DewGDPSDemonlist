@@ -33,6 +33,13 @@
             "percent": 100,
             "hz": 180,
             "clickMethod": "COS"
+        },
+        {
+            "user": "weavilegmd",
+            "link": "https://youtu.be/LFocN8TiQmE?si=AXc7zZ4OD8dMkzKh",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
