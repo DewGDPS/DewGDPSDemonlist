@@ -7,7 +7,7 @@
     "clickMethod": "Click Between Frames",
     "verification": "https://youtu.be/hru0mrAXqAo?is=1s6i4joQHbqu-WZ0",
     "percentToQualify": 50,
-    "enjoyment": "6/10",
+    "enjoyment": "7/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -40,6 +40,13 @@
         {
             "user": "lucidity",
             "link": "https://www.youtube.com/watch?v=ZKufuH7AGBI",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "Strdeh",
+            "link": "https://youtu.be/0aEMz0NoD2I?si=nBQ_bsH3oVbHktt5",
             "percent": 100,
             "hz": 60,
             "clickMethod": "CBF"
