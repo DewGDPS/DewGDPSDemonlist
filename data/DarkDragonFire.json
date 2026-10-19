@@ -36,6 +36,13 @@
             "percent": 100,
             "hz": 180,
             "clickMethod": "COS"
+        },
+        {
+            "user": "lucidity",
+            "link": "https://www.youtube.com/watch?v=1_0uflcFqjk",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
         }
     ]
 }
