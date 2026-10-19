@@ -26,6 +26,13 @@
             "percent": 100,
             "hz": 240,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nLabxNskDun7k3yXR?invite=cr-MSxVbUYsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
