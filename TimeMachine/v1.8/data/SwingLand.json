@@ -1,0 +1,69 @@
+{
+    "id": 105,
+    "name": "Swing Land",
+    "author": "nilZeroGMD",
+    "creators": ["nilZeroGMD"],
+    "verifier": "nilZeroGMD",
+    "clickMethod": "Click On Steps",
+    "verification": "https://youtu.be/uHHtLVvjqBQ",
+    "percentToQualify": 50,
+    "enjoyment": "5/10",
+    "password": "Copyable",
+     "popupIDs": [
+        {
+            "id": 105,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://www.youtube.com/watch?v=AwGn1ydd5EU",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "riotsreborn",
+            "link": "https://www.youtube.com/watch?v=vSs01H2bswg",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "Dew",
+            "link": "https://www.youtube.com/watch?v=S997T8lVQT8&t=670s",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "Strdeh",
+            "link": "https://youtu.be/gREv0El0HBc?si=t8YocpufOCD3BMVE",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/imported-clips/clips/nHXXWHNEwcRgapgMS?invite=cr-MSxXZTcsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "Larpidshaft",
+            "link": "https://www.youtube.com/shorts/hrmqzbJPEps",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "lucidity",
+            "link": "https://www.youtube.com/watch?v=rXBlg8DLrqk",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": 124,
+    "name": "Clutterjunk",
+    "author": "CheeZ11111",
+    "creators": ["CheeZ11111"],
+    "verifier": "CheeZ11111",
+    "clickMethod": "Click On Steps",
+    "verification": "https://medal.tv/games/geometry-dash/clips/nEWJiK063CGth1B0g?invite=cr-MSxvTTYsNjkzMDQwNTQ4",
+    "percentToQualify": 50,
+    "enjoyment": "1/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 124,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://youtu.be/Ta19BTvTsho",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
+        }
+    ]
+}

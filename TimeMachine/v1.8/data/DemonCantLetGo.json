@@ -1,0 +1,34 @@
+{
+    "id": 152,
+    "name": "Demon Cant Let Go",
+    "author": "Strdeh",
+    "creators": ["Strdeh"],
+    "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://youtu.be/B9TS8PHbxpc?si=fFXba5CKBNs6INFU",
+    "percentToQualify": 50,
+    "enjoyment": "4/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 152,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://www.youtube.com/watch?v=QgWQuxf9b-0",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nJ5mG5qotTnyQq5g-?invite=cr-MSxNUTUsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}

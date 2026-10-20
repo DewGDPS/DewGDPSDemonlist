@@ -1,0 +1,34 @@
+{
+    "id": 177,
+    "name": "Deadly Sonic Ship",
+    "author": "nilZeroGMD",
+    "creators": ["nilZeroGMD"],
+    "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://youtu.be/0dac__ceWkM?si=fBGFAsXwbB6GFpDY",
+    "percentToQualify": 50,
+    "enjoyment": "1/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 177,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://www.youtube.com/watch?v=n0HBMar-ei8",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://www.youtube.com/watch?v=n0HBMar-ei8",
+            "percent": 97,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}
