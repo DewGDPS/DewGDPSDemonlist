@@ -7,7 +7,7 @@
     "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=SKk7ciKQC7w",
     "percentToQualify": 50,
-    "enjoyment": "4/10",
+    "enjoyment": "3/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -22,6 +22,13 @@
             "percent": 100,
             "hz": 180,
             "clickMethod": "COS"
+        },
+        {
+            "user": "lucidity",
+            "link": "https://www.youtube.com/watch?v=B1jLYK6RWnc&feature=youtu.be",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
         }
     ]
 }
