@@ -3,9 +3,9 @@
     "name": "Riot Easy Map",
     "author": "riotsreborn",
     "creators": ["riotsreborn"],
-    "verifier": "riotsreborn",
+    "verifier": "Davidshaft",
     "clickMethod": "Click On Steps",
-    "verification": "https://www.youtube.com/watch?v=qdM8u1t0MO4",
+    "verification": "https://www.youtube.com/watch?v=4rAoW11gLHA",
     "percentToQualify": 50,
     "enjoyment": "4/10",
     "password": "Copyable",
@@ -16,13 +16,6 @@
         }
     ],
     "records": [
-        {
-            "user": "Davidshaft",
-            "link": "https://www.youtube.com/watch?v=4rAoW11gLHA",
-            "percent": 100,
-            "hz": 240,
-            "clickMethod": "COS"
-        },
         {
             "user": "cheez11111",
             "link": "https://medal.tv/games/geometry-dash/clips/nKJphqsUFbRO0CEv3?invite=cr-MSxWck0sNjA3ODY5MzQy",
