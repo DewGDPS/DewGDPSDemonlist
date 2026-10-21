@@ -7,7 +7,7 @@
     "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=lI9iLhspQu0",
     "percentToQualify": 50,
-    "enjoyment": "7/10",
+    "enjoyment": "6/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -47,6 +47,13 @@
             "percent": 100,
             "hz": 120,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "SirAlekReal",
+            "link": "https://www.youtube.com/watch?v=9fde8r9J8wY&feature=youtu.be",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
         }
     ]
 }
