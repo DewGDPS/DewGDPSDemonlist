@@ -7,7 +7,7 @@
     "clickMethod": "Click Between Frames",
     "verification": "https://youtu.be/RnOJA3EzV-U?si=yg7XkpuA2C6U4UuA",
     "percentToQualify": 50,
-    "enjoyment": "8/10",
+    "enjoyment": "7/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -39,6 +39,13 @@
             "link": "https://www.youtube.com/watch?v=KXDQPKmlbDE",
             "percent": 100,
             "hz": 60,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "SirAlekReal",
+            "link": "https://www.youtube.com/watch?v=DrwLgv8nH6E",
+            "percent": 100,
+            "hz": 240,
             "clickMethod": "CBF"
         }
     ]
