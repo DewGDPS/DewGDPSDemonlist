@@ -43,6 +43,13 @@
             "percent": 100,
             "hz": 60,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "SirAlekReal",
+            "link": "https://youtu.be/D9ptCANcLWE?is=Pd8z2iShks9R6Z90",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
         }
     ]
 }
