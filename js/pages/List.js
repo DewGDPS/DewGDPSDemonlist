@@ -51,22 +51,25 @@ export default {
 
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <div class="level-title-container">
+                    <div class="level-header">
                         <img
                             v-if="level.image2"
                             :src="'/DewGDPSDemonlist/assets/' + level.image2"
                             class="level-title-image"
                             alt=""
                         />
-                        <h1>{{ level.name }}</h1>
-                    </div>
 
-                    <LevelAuthors
-                        :author="level.author"
-                        :creators="level.creators"
-                        :verifier="level.verifier"
-                        :click-method="level.clickMethod"
-                    ></LevelAuthors>
+                        <div class="level-header-info">
+                            <h1>{{ level.name }}</h1>
+
+                            <LevelAuthors
+                                :author="level.author"
+                                :creators="level.creators"
+                                :verifier="level.verifier"
+                                :click-method="level.clickMethod"
+                            ></LevelAuthors>
+                        </div>
+                    </div>
 
                     <iframe
                         class="video"
