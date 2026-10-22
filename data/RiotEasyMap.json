@@ -1,6 +1,8 @@
 {
     "id": 118,
     "name": "Riot Easy Map",
+    "image1": "MediumDemon.png",
+    "image2": "MediumDemonText.png",
     "author": "riotsreborn",
     "creators": ["riotsreborn"],
     "verifier": "Davidshaft",
