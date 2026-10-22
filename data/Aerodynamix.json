@@ -1,6 +1,8 @@
 {
     "id": 117,
     "name": "Aerodynamix",
+    "image1": "MediumDemon.png",
+    "image2": "MediumDemonText.png",
     "author": "Lastyk",
     "creators": ["Lastyk"],
     "verifier": "Lastyk",
