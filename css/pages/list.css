@@ -134,31 +134,43 @@
     color: #00ccff;
 }
 
-/* Keep the list image in its normal position */
+/* Level list: keep the icon and name aligned */
+.page-list .list .level button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Small image beside the level name */
 .page-list .list .level-list-image {
+    position: static;
     width: 24px;
     height: 24px;
+    margin: 0;
+    transform: none;
     object-fit: contain;
     flex-shrink: 0;
 }
 
-/* Image beside the level title on the detail page */
+/* Level detail title and image */
 .page-list .level-title-container {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-/* Shift the level title image to the left */
+/* Large image: do not shift or crop it */
 .page-list .level-title-image {
+    position: static;
     width: 80px;
     height: 80px;
+    margin: 0;
+    transform: none;
     object-fit: contain;
     flex-shrink: 0;
-    margin-left: -24px;
 }
 
-/* Keep the title from adding unwanted spacing */
+/* Keep the title spacing tidy */
 .page-list .level-title-container h1 {
     margin: 0;
 }
