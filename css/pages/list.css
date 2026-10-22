@@ -134,35 +134,28 @@
     color: #00ccff;
 }
 
-/* Keep level names in their original position */
-.page-list .list .level button {
-    position: relative;
-}
-
-/* Place the image to the left without affecting text alignment */
+/* Keep the list image in its normal position */
 .page-list .list .level-list-image {
-    position: absolute;
     width: 24px;
     height: 24px;
     object-fit: contain;
-    left: -24px;
-    top: 50%;
-    transform: translateY(-50%);
+    flex-shrink: 0;
 }
 
-/* Image beside the title on the level detail page */
+/* Image beside the level title on the detail page */
 .page-list .level-title-container {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-/* Size of the detail-page image */
+/* Shift the level title image to the left */
 .page-list .level-title-image {
     width: 80px;
     height: 80px;
     object-fit: contain;
     flex-shrink: 0;
+    margin-left: -24px;
 }
 
 /* Keep the title from adding unwanted spacing */
