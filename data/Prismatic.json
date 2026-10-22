@@ -1,6 +1,8 @@
 {
     "id": 115,
     "name": "Prismatic",
+    "image1": "EasyDemon.png",
+    "image2": "EasyDemonText.png",
     "author": "Davidshaft",
     "creators": ["Davidshaft"],
     "verifier": "Davidshaft",
