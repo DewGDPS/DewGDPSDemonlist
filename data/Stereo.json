@@ -1,6 +1,8 @@
 {
     "id": 127,
     "name": "Stereo",
+    "image1": "MediumDemon.png",
+    "image2": "MediumDemonText.png",
     "author": "Geometrical",
     "creators": ["Geometrical"],
     "verifier": "Davidshaft",
