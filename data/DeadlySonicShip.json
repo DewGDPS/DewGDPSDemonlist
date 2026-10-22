@@ -1,6 +1,8 @@
 {
     "id": 177,
     "name": "Deadly Sonic Ship",
+    "image1": "HardDemon.png",
+    "image2": "HardDemonText.png",
     "author": "nilZeroGMD",
     "creators": ["nilZeroGMD"],
     "verifier": "Strdeh",
