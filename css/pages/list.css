@@ -117,7 +117,7 @@
 .page-list .level-header-info {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 18px;
     flex: 1;
     min-width: 0;
 }
