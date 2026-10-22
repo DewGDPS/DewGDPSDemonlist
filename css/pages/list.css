@@ -133,3 +133,38 @@
 .editors a.link:hover {
     color: #00ccff;
 }
+
+/* Image beside the level name in the left-hand list */
+.page-list .list .level-list-image {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Align the list icon and level name */
+.page-list .list .level button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Image beside the title on the level detail page */
+.page-list .level-title-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Size of the detail-page image */
+.page-list .level-title-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Keep the title from adding unwanted spacing */
+.page-list .level-title-container h1 {
+    margin: 0;
+}
