@@ -134,19 +134,20 @@
     color: #00ccff;
 }
 
-/* Image beside the level name in the left-hand list */
+/* Keep level names in their original position */
+.page-list .list .level button {
+    position: relative;
+}
+
+/* Place the image to the left without affecting text alignment */
 .page-list .list .level-list-image {
+    position: absolute;
     width: 24px;
     height: 24px;
     object-fit: contain;
-    flex-shrink: 0;
-}
-
-/* Align the list icon and level name */
-.page-list .list .level button {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+    left: -24px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Image beside the title on the level detail page */
