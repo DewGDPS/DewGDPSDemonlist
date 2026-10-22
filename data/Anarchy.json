@@ -1,6 +1,8 @@
 {
     "id": 158,
     "name": "Anarchy",
+    "image1": "ExtremeDemon.png",
+    "image2": "ExtremeDemonText.png",
     "author": "Davidshaft",
     "creators": ["Davidshaft"],
     "verifier": "Davidshaft",
