@@ -36,7 +36,7 @@ export default {
                             <button @click="selected = i">
                                 <img
                                     v-if="level?.image1"
-                                    :src="'/DewGDPSDemonlist/Assets/' + level.image1"
+                                    :src="'/DewGDPSDemonlist/assets/' + level.image1"
                                     class="level-list-image"
                                     alt=""
                                 />
@@ -54,7 +54,7 @@ export default {
                     <div class="level-title-container">
                         <img
                             v-if="level.image2"
-                            :src="'/DewGDPSDemonlist/Assets/' + level.image2"
+                            :src="'/DewGDPSDemonlist/assets/' + level.image2"
                             class="level-title-image"
                             alt=""
                         />
