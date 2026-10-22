@@ -1,6 +1,8 @@
 {
     "id": 152,
     "name": "Demon Cant Let Go",
+    "image1": "MediumDemon.png",
+    "image2": "MediumDemonText.png",
     "author": "Strdeh",
     "creators": ["Strdeh"],
     "verifier": "Strdeh",
