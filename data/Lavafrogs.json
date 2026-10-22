@@ -1,6 +1,8 @@
 {
     "id": 181,
     "name": "Lavafrogs",
+    "image1": "EasyDemon.png",
+    "image2": "EasyDemonText.png",
     "author": "Marcigdpsaccount",
     "creators": ["Marcigdpsaccount"],
     "verifier": "Marcigdpsaccount",
