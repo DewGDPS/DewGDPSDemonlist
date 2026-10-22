@@ -316,3 +316,109 @@
         gap: 0.5rem;
     }
 }
+
+/* Restore normal level-list bar sizing */
+.page-list .list .level button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: auto;
+    box-sizing: border-box;
+
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    text-align: start;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+/* Keep small list icons unchanged */
+.page-list .list .level-list-image {
+    display: block;
+    position: static;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    transform: none;
+    object-fit: contain;
+    flex: 0 0 24px;
+}
+
+/* Level title and large image */
+.page-list .level-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    min-width: 0;
+}
+
+/* Make the large level image bigger */
+.page-list .level-title-image {
+    display: block;
+    position: static;
+    width: 112px;
+    height: 112px;
+    margin: 0;
+    padding: 0;
+    transform: none;
+    object-fit: contain;
+    flex: 0 0 112px;
+}
+
+/* Keep title and creator details to the right */
+.page-list .level-header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+}
+
+.page-list .level-header-info h1 {
+    margin: 0;
+}
+
+/* Prevent record rows and names from overlapping */
+.page-list .level-container .level .records {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.page-list .level-container .level .records td {
+    padding-block: 0.5rem;
+    vertical-align: middle;
+}
+
+.page-list .level-container .level .records .percent {
+    width: 4rem;
+    text-align: start;
+}
+
+.page-list .level-container .level .records .user {
+    width: auto;
+    overflow-wrap: anywhere;
+}
+
+.page-list .level-container .level .records .hz {
+    width: 7rem;
+    text-align: end;
+    white-space: nowrap;
+}
+
+/* Smaller screens */
+@media (max-width: 700px) {
+    .page-list .level-title-image {
+        width: 80px;
+        height: 80px;
+        flex-basis: 80px;
+    }
+
+    .page-list .level-container .level {
+        padding-right: 1rem;
+    }
+}
