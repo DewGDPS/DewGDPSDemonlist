@@ -1,6 +1,8 @@
 {
     "id": 141,
     "name": "Dark Dragon Fire",
+    "image1": "HardDemon.png",
+    "image2": "HardDemonText.png",
     "author": "Strdeh",
     "creators": ["Strdeh"],
     "verifier": "Strdeh",
