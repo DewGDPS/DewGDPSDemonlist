@@ -1,6 +1,8 @@
 {
     "id": 186,
     "name": "Cradles",
+    "image1": "InsaneDemon.png",
+    "image2": "InsaneDemonText.png",
     "author": "Marcigdpsaccount",
     "creators": ["Marcigdpsaccount"],
     "verifier": "Phobixl",
