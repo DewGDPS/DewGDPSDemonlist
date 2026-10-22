@@ -1,3 +1,4 @@
+
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
@@ -8,96 +9,176 @@ import LevelAuthors from "../components/List/LevelAuthors.js";
 
 export default {
     components: { Spinner, LevelAuthors },
+
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
+
         <main v-else class="page-list">
             <div class="list-container">
                 <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                    <tr v-for="([level, err], i) in list" :key="level?.id ?? i">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 150" class="type-label-lg">
+                                #{{ i + 1 }}
+                            </p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
+
+                        <td
+                            class="level"
+                            :class="{
+                                'active': selected == i,
+                                'error': !level
+                            }"
+                        >
                             <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                                <img
+                                    v-if="level?.image1"
+                                    :src="'/DewGDPSDemonlist/Assets/' + level.image1"
+                                    class="level-list-image"
+                                    alt=""
+                                />
+                                <span class="type-label-lg">
+                                    {{ level?.name || \`Error (\${err}.json)\` }}
+                                </span>
                             </button>
                         </td>
                     </tr>
                 </table>
             </div>
+
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1>{{ level.name }}</h1>
+                    <div class="level-title-container">
+                        <img
+                            v-if="level.image2"
+                            :src="'/DewGDPSDemonlist/Assets/' + level.image2"
+                            class="level-title-image"
+                            alt=""
+                        />
+                        <h1>{{ level.name }}</h1>
+                    </div>
+
                     <LevelAuthors
                         :author="level.author"
                         :creators="level.creators"
                         :verifier="level.verifier"
                         :click-method="level.clickMethod"
                     ></LevelAuthors>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+
+                    <iframe
+                        class="video"
+                        id="videoframe"
+                        :src="video"
+                        frameborder="0"
+                    ></iframe>
+
                     <ul class="stats">
-    <li>
-        <div class="type-title-sm">Points when completed</div>
-        <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
-    </li>
-    <li>
-        <div class="type-title-sm">ID</div>
-        <p><a href="#" @click.prevent="showAllowedCopies = true">
-    {{ level.id }}
-</a></p>
-    </li>
-    <li>
-        <div class="type-title-sm">Enjoyment Rating</div>
-        <p>{{ level.enjoyment || 'Not Rated' }}</p>
-    </li>
-    <li>
-        <div class="type-title-sm">Password</div>
-        <p>{{ level.password || 'Free to Copy' }}</p>
-    </li>
-</ul>
-                    <h2>Records ({{ level.records.length }})</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
-                    <p v-else>This level does not accept new records.</p>
+                        <li>
+                            <div class="type-title-sm">
+                                Points when completed
+                            </div>
+                            <p>
+                                {{ score(selected + 1, 100, level.percentToQualify) }}
+                            </p>
+                        </li>
+
+                        <li>
+                            <div class="type-title-sm">ID</div>
+                            <p>
+                                <a href="#" @click.prevent="showAllowedCopies = true">
+                                    {{ level.id }}
+                                </a>
+                            </p>
+                        </li>
+
+                        <li>
+                            <div class="type-title-sm">Enjoyment Rating</div>
+                            <p>{{ level.enjoyment || 'Not Rated' }}</p>
+                        </li>
+
+                        <li>
+                            <div class="type-title-sm">Password</div>
+                            <p>{{ level.password || 'Free to Copy' }}</p>
+                        </li>
+                    </ul>
+
+                    <h2>Records ({{ (level.records || []).length }})</h2>
+
+                    <p v-if="selected + 1 <= 75">
+                        <strong>{{ level.percentToQualify }}%</strong>
+                        or better to qualify
+                    </p>
+
+                    <p v-else-if="selected + 1 <= 150">
+                        <strong>100%</strong> or better to qualify
+                    </p>
+
+                    <p v-else>
+                        This level does not accept new records.
+                    </p>
+
                     <table class="records">
-                        <tr v-for="record in level.records" class="record">
+                        <tr
+                            v-for="(record, index) in (level.records || [])"
+                            :key="index"
+                            class="record"
+                        >
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
                             </td>
+
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                <a
+                                    :href="record.link"
+                                    target="_blank"
+                                    class="type-label-lg"
+                                >
+                                    {{ record.user }}
+                                </a>
                             </td>
+
                             <td class="mobile">
-                               <img
-    v-if="record.mobile"
-    :src="'/DewGDPSDemonlist/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'"
-    alt="Mobile"
->
+                                <img
+                                    v-if="record.mobile"
+                                    :src="'/DewGDPSDemonlist/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'"
+                                    alt="Mobile"
+                                >
                             </td>
+
                             <td class="hz">
-    <p style="white-space: nowrap;">
-        <span v-if="record.clickMethod">
-            {{ record.clickMethod }} | 
-        </span>{{ record.hz }}Hz
-    </p>
-</td>
+                                <p style="white-space: nowrap;">
+                                    <span v-if="record.clickMethod">
+                                        {{ record.clickMethod }} |
+                                    </span>
+                                    {{ record.hz }}Hz
+                                </p>
+                            </td>
                         </tr>
                     </table>
-                     <div v-if="showAllowedCopies" class="popup-overlay"
-                         @click.self="showAllowedCopies = false">
+
+                    <div
+                        v-if="showAllowedCopies"
+                        class="popup-overlay"
+                        @click.self="showAllowedCopies = false"
+                    >
                         <div class="popup">
-                            <button class="popup-close"
-                                    @click="showAllowedCopies = false">
+                            <button
+                                class="popup-close"
+                                @click="showAllowedCopies = false"
+                            >
                                 &times;
                             </button>
 
                             <h2>Allowed Copies</h2>
 
                             <div v-if="level.popupIDs && level.popupIDs.length">
-                                <div v-for="entry in level.popupIDs" :key="entry.id">
+                                <div
+                                    v-for="entry in level.popupIDs"
+                                    :key="entry.id"
+                                >
                                     <p>
                                         <strong>ID: {{ entry.id }}</strong>
                                         — {{ entry.text }}
@@ -105,58 +186,81 @@ export default {
                                 </div>
                             </div>
 
-                            <p v-else>No extra information available.</p>
+                            <p v-else>
+                                No extra information available.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
+
+                <div
+                    v-else
+                    class="level"
+                    style="height: 100%; justify-content: center; align-items: center;"
+                >
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
             </div>
+
             <div class="meta-container">
                 <div class="meta">
                     <div class="errors" v-show="errors.length > 0">
-                        <p class="error" v-for="error of errors">{{ error }}</p>
+                        <p class="error" v-for="error in errors" :key="error">
+                            {{ error }}
+                        </p>
                     </div>
+
                     <div class="og">
-                        <p class="type-label-md">Credit to Prometheus for the <a href="https://tsl.pages.dev/" target="_blank">Website layout</a></p>
+                        <p class="type-label-md">
+                            Credit to Prometheus for the
+                            <a href="https://tsl.pages.dev/" target="_blank">
+                                Website layout
+                            </a>
+                        </p>
                     </div>
+
                     <template v-if="editors">
-    <h3>List Editors</h3>
-    <ol class="editors">
-        <li v-for="editor in editors">        
-<img
-    :src="'/DewGDPSDemonlist/assets/' + editor.image.replace('.svg', (store.dark ? '-dark' : '') + '.svg')"
-    :alt="editor.name"
-    width="24"
-    height="24"
-    style="object-fit: contain;"
->
-            <a
-                v-if="editor.link"
-                class="type-label-lg link"
-                target="_blank"
-                :href="editor.link"
-            >{{ editor.name }}</a>
-            <p v-else>{{ editor.name }}</p>
-        </li>
-    </ol>
-</template>
+                        <h3>List Editors</h3>
+
+                        <ol class="editors">
+                            <li v-for="editor in editors" :key="editor.name">
+                                <img
+                                    :src="'/DewGDPSDemonlist/assets/' + editor.image.replace('.svg', (store.dark ? '-dark' : '') + '.svg')"
+                                    :alt="editor.name"
+                                    width="24"
+                                    height="24"
+                                    style="object-fit: contain;"
+                                >
+
+                                <a
+                                    v-if="editor.link"
+                                    class="type-label-lg link"
+                                    target="_blank"
+                                    :href="editor.link"
+                                >
+                                    {{ editor.name }}
+                                </a>
+
+                                <p v-else>{{ editor.name }}</p>
+                            </li>
+                        </ol>
+                    </template>
+
                     <h3>Submission Requirements</h3>
+
                     <p>
                         1. No Hacks Allowed (Except for FPS Bypass, but only up to 360 FPS)
                     </p>
+                    <p>2. TPS Bypass is Strictly Prohibited</p>
+                    <p>3. Must be a Rated Level on the GDPS</p>
                     <p>
-                        2. TPS Bypass is Strictly Prohibited
+                        4. Clicks must be heard and sync with the video
+                        (Use a CPS Counter that flashes green to prove it easier)
                     </p>
                     <p>
-                        3. Must be a Rated Level on the GDPS
-                    </p>
-                    <p>
-                        4. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
-                    </p>
-                    <p>
-                        5. The Recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
+                        5. The Recording must show the previous attempt death,
+                        unless the completion is on the first attempt, then show
+                        Any Death with No edits (Like Replay the Level and instantly Die)
                     </p>
                     <p>
                         6. The Recording Must show the player hit the End Wall or End Trigger
@@ -165,7 +269,8 @@ export default {
                         7. No Secret Ways (Swag Routes are allowed to a degree)
                     </p>
                     <p>
-                        8. Must be the Original Version of the Level, no modifications (Only Certain Startpos Levels are allowed)
+                        8. Must be the Original Version of the Level, no modifications
+                        (Only Certain Startpos Levels are allowed)
                     </p>
                     <p>
                         9. Demonlist Levels cannot be a Reupload from the normal GD Servers
@@ -173,50 +278,50 @@ export default {
                     <p>
                         10. New Top 1 Levels can't be too big of a Jump from the Current Top 1 Level
                     </p>
-                    <p>
-                        11. The Recording Must show a cheat indicator
-                    </p>
+                    <p>11. The Recording Must show a cheat indicator</p>
                 </div>
             </div>
         </main>
     `,
+
     data: () => ({
-    list: [],
-    editors: [],
-    loading: true,
-    selected: 0,
-    errors: [],
-    showAllowedCopies: false,
-    dataDir: '/DewGDPSDemonlist/data',
-    store
-}),
+        list: [],
+        editors: [],
+        loading: true,
+        selected: 0,
+        errors: [],
+        showAllowedCopies: false,
+        dataDir: '/DewGDPSDemonlist/data',
+        store
+    }),
+
     computed: {
         level() {
-    return this.list[this.selected]?.[0] ?? null;
-},
+            return this.list[this.selected]?.[0] ?? null;
+        },
+
         video() {
-    if (!this.level) {
-        return "";
-    }
+            if (!this.level) {
+                return "";
+            }
 
-    if (!this.level.showcase) {
-        return embed(this.level.verification);
-    }
+            if (!this.level.showcase) {
+                return embed(this.level.verification);
+            }
 
-    return embed(
-        this.toggledShowcase
-            ? this.level.showcase
-            : this.level.verification
-    );
-},
+            return embed(
+                this.toggledShowcase
+                    ? this.level.showcase
+                    : this.level.verification
+            );
+        },
     },
+
     async mounted() {
-        // Hide loading spinner
         this.list = (await fetchList(this.dataDir)) ?? [];
         this.editors = await fetchEditors();
 
-        // Error handling
-        if (!this.list) {
+        if (!this.list.length) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
             ];
@@ -228,6 +333,7 @@ export default {
                         return `Failed to load level. (${err}.json)`;
                     })
             );
+
             if (!this.editors) {
                 this.errors.push("Failed to load list editors.");
             }
@@ -235,6 +341,7 @@ export default {
 
         this.loading = false;
     },
+
     methods: {
         embed,
         score,
