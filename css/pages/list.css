@@ -13,7 +13,10 @@
     padding-right: 2rem;
 }
 
-/* Level list */
+/* =========================
+   LEVEL LIST
+   ========================= */
+
 .page-list .list {
     table-layout: auto;
 }
@@ -31,15 +34,13 @@
     display: flex;
     align-items: center;
     gap: 6px;
-
-    width: 100%;
     box-sizing: border-box;
 
     background-color: var(--color-background);
     color: var(--color-on-background);
     border: none;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem 0.75rem;
     text-align: start;
     word-break: normal;
     overflow-wrap: anywhere;
@@ -62,7 +63,7 @@
     color: var(--color-on-primary);
 }
 
-/* Small image beside the level name */
+/* Small icon next to the level name */
 .page-list .list .level-list-image {
     display: block;
     position: static;
@@ -74,12 +75,14 @@
     flex: 0 0 24px;
 }
 
-/* Keep the level name from pushing the icon out of alignment */
 .page-list .list .level button span {
     min-width: 0;
 }
 
-/* Level details */
+/* =========================
+   LEVEL DETAILS
+   ========================= */
+
 .page-list .level-container .level {
     display: flex;
     flex-direction: column;
@@ -89,7 +92,7 @@
     box-sizing: border-box;
 }
 
-/* Large image on the left, title and creators on the right */
+/* Large image to the left of title and creator information */
 .page-list .level-header {
     display: flex;
     align-items: flex-start;
@@ -101,20 +104,20 @@
 .page-list .level-title-image {
     display: block;
     position: static;
-    width: 80px;
-    height: 80px;
+    width: 112px;
+    height: 112px;
     margin: 0;
     padding: 0;
     transform: none;
     object-fit: contain;
-    flex: 0 0 80px;
+    flex: 0 0 112px;
 }
 
 /* Title and creator information */
 .page-list .level-header-info {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
     flex: 1;
     min-width: 0;
 }
@@ -124,17 +127,18 @@
     overflow-wrap: anywhere;
 }
 
-/* Creator, verifier and publisher information */
+/* Creator, verifier, publisher and click method */
 .page-list .level-container .level .level-authors {
     display: grid;
     grid-template-columns: max-content minmax(0, 1fr);
     grid-auto-rows: max-content;
-    gap: 1rem;
+    gap: 0.5rem 1rem;
     min-width: 0;
 }
 
 /* Video */
 .page-list .level-container .level .video {
+    display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
     border: 0;
@@ -155,30 +159,40 @@
     gap: 1rem;
 }
 
-/* Records */
+/* =========================
+   RECORDS
+   ========================= */
+
 .page-list .level-container .level .records {
-    table-layout: fixed;
     width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.page-list .level-container .level .records td {
+    padding-block: 0.5rem;
+    vertical-align: middle;
 }
 
 .page-list .level-container .level .records tr td:not(:last-child) {
-    padding-right: 1rem;
+    padding-right: 0.75rem;
 }
 
-.page-list .level-container .level .records .percent,
-.page-list .level-container .level .records .user,
-.page-list .level-container .level .records .hz {
-    padding-block: 1rem;
+.page-list .level-container .level .records .percent {
+    width: 4rem;
+    text-align: start;
+    white-space: nowrap;
 }
 
 .page-list .level-container .level .records .user {
-    width: 100%;
     overflow-wrap: anywhere;
+    word-break: normal;
 }
 
-.page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .hz {
+    width: 7rem;
     text-align: end;
+    white-space: nowrap;
 }
 
 .page-list .meta-container .og a:hover,
@@ -186,7 +200,10 @@
     text-decoration: underline;
 }
 
-/* Sidebar */
+/* =========================
+   SIDEBAR
+   ========================= */
+
 .page-list .meta {
     display: flex;
     flex-direction: column;
@@ -219,8 +236,8 @@
 }
 
 .page-list .meta .editors li img {
-    height: 1.25rem;
     width: 1.25rem;
+    height: 1.25rem;
     object-fit: contain;
 }
 
@@ -236,7 +253,10 @@
     color: #00ccff;
 }
 
-/* Allowed Copies popup */
+/* =========================
+   ALLOWED COPIES POPUP
+   ========================= */
+
 .page-list .popup-overlay {
     position: fixed;
     inset: 0;
@@ -272,7 +292,10 @@
     cursor: pointer;
 }
 
-/* Smaller screens */
+/* =========================
+   RESPONSIVE LAYOUT
+   ========================= */
+
 @media (max-width: 700px) {
     .page-list .list-container,
     .page-list .level-container,
@@ -293,9 +316,9 @@
     }
 
     .page-list .level-title-image {
-        width: 64px;
-        height: 64px;
-        flex-basis: 64px;
+        width: 80px;
+        height: 80px;
+        flex-basis: 80px;
     }
 
     .page-list .level-container .level .stats {
@@ -315,110 +338,12 @@
         grid-template-columns: 1fr;
         gap: 0.5rem;
     }
-}
 
-/* Restore normal level-list bar sizing */
-.page-list .list .level button {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    width: auto;
-    box-sizing: border-box;
-
-    background-color: var(--color-background);
-    color: var(--color-on-background);
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0.75rem;
-    text-align: start;
-    word-break: normal;
-    overflow-wrap: anywhere;
-    cursor: pointer;
-}
-
-/* Keep small list icons unchanged */
-.page-list .list .level-list-image {
-    display: block;
-    position: static;
-    width: 24px;
-    height: 24px;
-    margin: 0;
-    transform: none;
-    object-fit: contain;
-    flex: 0 0 24px;
-}
-
-/* Level title and large image */
-.page-list .level-header {
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
-    min-width: 0;
-}
-
-/* Make the large level image bigger */
-.page-list .level-title-image {
-    display: block;
-    position: static;
-    width: 112px;
-    height: 112px;
-    margin: 0;
-    padding: 0;
-    transform: none;
-    object-fit: contain;
-    flex: 0 0 112px;
-}
-
-/* Keep title and creator details to the right */
-.page-list .level-header-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    flex: 1;
-    min-width: 0;
-}
-
-.page-list .level-header-info h1 {
-    margin: 0;
-}
-
-/* Prevent record rows and names from overlapping */
-.page-list .level-container .level .records {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
-
-.page-list .level-container .level .records td {
-    padding-block: 0.5rem;
-    vertical-align: middle;
-}
-
-.page-list .level-container .level .records .percent {
-    width: 4rem;
-    text-align: start;
-}
-
-.page-list .level-container .level .records .user {
-    width: auto;
-    overflow-wrap: anywhere;
-}
-
-.page-list .level-container .level .records .hz {
-    width: 7rem;
-    text-align: end;
-    white-space: nowrap;
-}
-
-/* Smaller screens */
-@media (max-width: 700px) {
-    .page-list .level-title-image {
-        width: 80px;
-        height: 80px;
-        flex-basis: 80px;
+    .page-list .level-container .level .records .percent {
+        width: 3rem;
     }
 
-    .page-list .level-container .level {
-        padding-right: 1rem;
+    .page-list .level-container .level .records .hz {
+        width: 5.5rem;
     }
 }
