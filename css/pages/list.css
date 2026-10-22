@@ -40,7 +40,7 @@
     color: var(--color-on-background);
     border: none;
     border-radius: 0.5rem;
-    padding: 0.5rem 0.75rem;
+    padding: 1rem;
     text-align: start;
     word-break: normal;
     overflow-wrap: anywhere;
@@ -63,7 +63,7 @@
     color: var(--color-on-primary);
 }
 
-/* Small icon next to the level name */
+/* Small icon beside the level name */
 .page-list .list .level-list-image {
     display: block;
     position: static;
@@ -92,7 +92,7 @@
     box-sizing: border-box;
 }
 
-/* Large image to the left of title and creator information */
+/* Large image beside the title and creator details */
 .page-list .level-header {
     display: flex;
     align-items: flex-start;
@@ -117,7 +117,7 @@
 .page-list .level-header-info {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     flex: 1;
     min-width: 0;
 }
@@ -132,7 +132,7 @@
     display: grid;
     grid-template-columns: max-content minmax(0, 1fr);
     grid-auto-rows: max-content;
-    gap: 0.5rem 1rem;
+    gap: 1rem;
     min-width: 0;
 }
 
@@ -170,12 +170,12 @@
 }
 
 .page-list .level-container .level .records td {
-    padding-block: 0.5rem;
+    padding-block: 1rem;
     vertical-align: middle;
 }
 
 .page-list .level-container .level .records tr td:not(:last-child) {
-    padding-right: 0.75rem;
+    padding-right: 1rem;
 }
 
 .page-list .level-container .level .records .percent {
